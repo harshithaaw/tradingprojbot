@@ -1,0 +1,8 @@
+2026-03-28 17:03:37 | INFO     | client | BinanceClient initialized — connected to https://testnet.binancefuture.com
+2026-03-28 17:03:37 | INFO     | cli | CLI started — args: symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-03-28 17:03:37 | INFO     | validators | Validation passed — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-03-28 17:03:37 | INFO     | orders | Sending order to Binance — {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-28 17:03:37 | INFO     | client | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-28 17:03:37 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1774697617095}
+2026-03-28 17:03:38 | ERROR    | client | API error 400: {'code': -2019, 'msg': 'Margin is insufficient.'}
+2026-03-28 17:03:38 | ERROR    | cli | API error: Binance API error: Margin is insufficient. (code -2019)

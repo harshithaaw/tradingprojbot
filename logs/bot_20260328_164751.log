@@ -1,0 +1,4 @@
+2026-03-28 16:47:51 | INFO     | validators | Validation passed — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-03-28 16:47:51 | WARNING  | validators | Validation failed: Price is required for LIMIT orders
+2026-03-28 16:47:51 | WARNING  | validators | Validation failed: Invalid side 'BUYYY' — must be one of {'SELL', 'BUY'}
+2026-03-28 16:47:51 | WARNING  | validators | Validation failed: Quantity must be a positive number greater than 0

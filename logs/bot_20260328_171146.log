@@ -1,0 +1,9 @@
+2026-03-28 17:11:46 | INFO     | client | BinanceClient initialized — connected to https://testnet.binancefuture.com
+2026-03-28 17:11:46 | INFO     | cli | CLI started — args: symbol=BTCUSDT side=SELL type=LIMIT qty=0.01 price=99000.0
+2026-03-28 17:11:46 | INFO     | validators | Validation passed — symbol=BTCUSDT side=SELL type=LIMIT qty=0.01 price=99000.0
+2026-03-28 17:11:46 | INFO     | orders | Sending order to Binance — {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 99000.0, 'timeInForce': 'GTC'}
+2026-03-28 17:11:46 | INFO     | client | Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 99000.0, 'timeInForce': 'GTC'}
+2026-03-28 17:11:46 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 99000.0, 'timeInForce': 'GTC', 'timestamp': 1774698106487}
+2026-03-28 17:11:47 | DEBUG    | client | Response: {'orderId': 13001984406, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'BowxRYHqVEcbeJckxeUs2k', 'price': '99000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774698107268}
+2026-03-28 17:11:47 | INFO     | orders | Order response — orderId=13001984406 status=NEW
+2026-03-28 17:11:47 | INFO     | cli | Order placed successfully — orderId=13001984406

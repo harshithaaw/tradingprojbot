@@ -1,0 +1,9 @@
+2026-03-28 17:10:49 | INFO     | client | BinanceClient initialized — connected to https://testnet.binancefuture.com
+2026-03-28 17:10:49 | INFO     | cli | CLI started — args: symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-03-28 17:10:49 | INFO     | validators | Validation passed — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-03-28 17:10:49 | INFO     | orders | Sending order to Binance — {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-28 17:10:49 | INFO     | client | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-28 17:10:49 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1774698049194}
+2026-03-28 17:10:49 | DEBUG    | client | Response: {'orderId': 13001982535, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'sq9QCA4Zy6IWL8TPJQmNmd', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774698049986}
+2026-03-28 17:10:49 | INFO     | orders | Order response — orderId=13001982535 status=NEW
+2026-03-28 17:10:49 | INFO     | cli | Order placed successfully — orderId=13001982535
